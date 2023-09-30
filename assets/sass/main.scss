@@ -1,7 +1,30 @@
-.navbar {
-  background-color: #171923;
-  border: 1px solid #101114;
+// Customize Bootstrap with variables.
+$primary: #3182ce;
+$secondary: #805AD5;
+$success: #38A169;
+
+// Then import bootstrap.
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Finally, any additional styles.
+.navbar.navbar-dark.bg-dark {
+  background-color: #101114 !important;
+  border: 1px solid #050607;
   border-top: none;
+
+  .nav-item {
+    margin-left: 1.5rem;
+  }
+}
+
+
+.btn.btn-primary,
+.btn.btn-primary.btn-lg {
+  color: #fff;
+}
+
+#play-button-wrapper {
+  padding: 24px 0px;
 }
 
 body {
@@ -11,7 +34,20 @@ body {
 
 #text-content {
   background-color: #ffffff;
-  padding: 36px;
+  padding: 36px 72px;
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+  h2 {
+    margin-top: 48px;
+    margin-bottom: 36px;
+  }
+  h5 {
+    font-weight: bold;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
 }
 
 #video-wrapper {

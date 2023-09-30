@@ -1,24 +1,10 @@
-This is the about page.
+Elara is a game that teaches you how to code. It is named after one of the
+[moons of Jupiter](<https://en.wikipedia.org/wiki/Elara_(moon)>) where the game takes
+place.
 
-`Here's some code`
+It is still a work-in-progress. The current "public beta" version includes 25 levels,
+teaches many core programming concepts, and features a complete story from start-to-end! However, some minor things like dialog, music, sound effects, and certain animations may feel incomplete. Elara is constantly being improved, and your feedback can help us make the
+game as good as it can be 😀
 
-This is **bold**, _itallic_, and ~~struck through~~ text.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Imperdiet nulla
-malesuada pellentesque elit eget gravida cum sociis. Id aliquet lectus proin
-nibh. Sit amet cursus sit amet dictum sit amet justo donec. Vitae congue eu
-consequat ac. Elementum tempus egestas sed sed risus pretium quam. Faucibus
-purus in massa tempor nec feugiat nisl pretium. Quam id leo in vitae turpis
-massa sed elementum tempus. Accumsan sit amet nulla facilisi morbi tempus.
-Ornare massa eget egestas purus. Vitae purus faucibus ornare suspendisse
-sed. Massa ultricies mi quis hendrerit dolor magna. Pellentesque habitant
-morbi tristique senectus. Viverra mauris in aliquam sem fringilla. Amet
-venenatis urna cursus eget nunc scelerisque viverra mauris. Viverra maecenas
-accumsan lacus vel facilisis volutpat est. Sit amet nulla facilisi morbi
-tempus iaculis urna id. Blandit turpis cursus in hac habitasse platea.
-Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Blandit
-aliquam etiam erat velit scelerisque. Pretium fusce id velit ut tortor
-pretium viverra suspendisse potenti. Id consectetur purus ut faucibus
-pulvinar. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus
-iaculis.
+Elara is and always will be free and open source! The source code is
+[available on GitHub](https://github.com/albrow/elara).

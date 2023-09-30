@@ -13,9 +13,14 @@
   </div>
 </div>
 <div id="text-content">
-  <h3 id="about">About</h3>
+  <h2 id="about">About</h2>
   {{ partial "about.md" | markdownify }}
-  <h3 id="faqs">FAQs</h3>
+  <div id="play-button-wrapper">
+    <a href="https://play.elaragame.com">
+      <button type="button" class="btn btn-primary btn-lg">Play Now</button>
+    </a>
+  </div>
+  <h2 id="faqs">FAQs</h2>
   {{ partial "faqs.md" | markdownify }}
 </div>
 {{end}}
