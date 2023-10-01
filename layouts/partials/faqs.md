@@ -23,14 +23,18 @@ to a different computer or a different browser, your progress will be reset. See
 [Do you need an account to play?](#do-you-need-an-account-to-play) for more
 information.
 
-##### Do you need an account to play?
+##### Do I need an account to play?
 
-No. You can play Elara straight away without creating an account!
+No. You can play Elara right away without creating an account!
 
 Future versions of the game may include account creation and sign-in options if
 you want to save your progress across different computers. If included, these
 will be completely optional and you can still play without an account if you
 choose to do so.
+
+##### Do I need to install the game?
+
+Nope. Elara runs directly in your browser, so there's no need to install anything.
 
 ##### What language does Elara teach?
 
