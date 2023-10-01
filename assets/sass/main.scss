@@ -30,7 +30,8 @@ $success: #38A169;
 
 body {
   background-color: #100b24;
-  background-image: url("/images/starry_bg.webp");
+  background: url("/images/starry_bg.webp") no-repeat center center fixed;
+  background-size: cover;
 }
 
 #text-content {

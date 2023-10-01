@@ -20,7 +20,7 @@ your own game. (Just make sure to read and follow the
 
 Yes, your progress will be saved automatically. However, if you switch
 to a different computer or a different browser, your progress will be reset. See
-[Do you need an account to play?](#do-you-need-an-account-to-play) for more
+[Do I need an account to play?](#do-i-need-an-account-to-play) for more
 information.
 
 ##### Do I need an account to play?
