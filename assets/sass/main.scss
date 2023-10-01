@@ -7,6 +7,12 @@ $success: #38A169;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Finally, any additional styles.
+body {
+  background-color: #100b24;
+  background: url("/images/starry_bg.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
 .navbar.navbar-dark.bg-dark {
   height: 64px;
   background-color: #171923 !important;
@@ -18,7 +24,6 @@ $success: #38A169;
   }
 }
 
-
 .btn.btn-primary,
 .btn.btn-primary.btn-lg {
   color: #fff;
@@ -28,10 +33,10 @@ $success: #38A169;
   padding: 24px 0px;
 }
 
-body {
-  background-color: #100b24;
-  background: url("/images/starry_bg.webp") no-repeat center center fixed;
-  background-size: cover;
+#badges {
+  a {
+    text-decoration: none;
+  }
 }
 
 #text-content {
