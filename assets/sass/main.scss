@@ -1,7 +1,7 @@
 // Customize Bootstrap with variables.
 $primary: #3182ce;
-$secondary: #805AD5;
-$success: #38A169;
+$secondary: #805ad5;
+$success: #38a169;
 
 // Then import bootstrap.
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -14,20 +14,25 @@ body {
   padding-top: 32px;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
   body {
     padding-top: 64px;
   }
 }
 
 .navbar.navbar-dark.bg-dark {
-  height: 64px;
   background-color: #171923 !important;
   border: 1px solid #050607;
   border-top: none;
 
   .nav-item {
     margin-left: 1.5rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar.navbar-dark.bg-dark {
+    height: 64px;
   }
 }
 
@@ -50,7 +55,7 @@ body {
   padding: 12px 24px;
   padding-bottom: 32px;
   p {
-    font-size: 1.0rem;
+    font-size: 1rem;
     margin-bottom: 8px;
   }
   h2 {
@@ -58,7 +63,8 @@ body {
     margin-bottom: 18px;
   }
   h5 {
-    margin-top: 48px;
+    font-size: 1.1rem;
+    margin-top: 18px;
     margin-bottom: 16px;
   }
 }
@@ -126,18 +132,17 @@ the heading of each section is hidden above the fold when you click on the link.
   visibility: hidden;
 }
 
-
 .dark-scrollbar {
   overflow-y: scroll !important;
-  scrollbar-color: #2D3748 #171923 !important;
+  scrollbar-color: #2d3748 #171923 !important;
 }
 
-.dark-scrollbar::-webkit-scrollbar-track  {
+.dark-scrollbar::-webkit-scrollbar-track {
   background-color: #171923 !important;
 }
 
 .dark-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #2D3748 !important;
+  background-color: #2d3748 !important;
   border-radius: 0.5rem !important;
   background-clip: content-box !important;
   border: 3px solid transparent !important;
@@ -153,4 +158,3 @@ the heading of each section is hidden above the fold when you click on the link.
   color: transparent !important;
   display: none !important;
 }
-
