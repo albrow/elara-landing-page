@@ -2,11 +2,12 @@
 <html
   lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
   dir="{{ or site.Language.LanguageDirection `ltr` }}"
+  class="dark-scrollbar"
 >
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body data-bs-smooth-scroll="true" class="p-5" tabindex="0">
+  <body data-bs-smooth-scroll="true" tabindex="0">
     <header>{{ partial "header.html" . }}</header>
     <main class="container mx-auto" style="padding-top: 45px">
       <div>{{ block "main" . }}{{ end }}</div>

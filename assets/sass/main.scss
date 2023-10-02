@@ -11,6 +11,13 @@ body {
   background-color: #100b24;
   background: url("/images/starry_bg.webp") no-repeat center center fixed;
   background-size: cover;
+  padding-top: 32px;
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    padding-top: 64px;
+  }
 }
 
 .navbar.navbar-dark.bg-dark {
@@ -40,21 +47,45 @@ body {
 }
 
 #text-content {
-  background-color: #ffffff;
-  padding: 36px 72px;
-  padding-bottom: 56px;
+  padding: 12px 24px;
+  padding-bottom: 32px;
   p {
-    font-size: 1.2rem;
-    margin-bottom: 16px;
+    font-size: 1.0rem;
+    margin-bottom: 8px;
   }
   h2 {
-    margin-top: 48px;
-    margin-bottom: 36px;
+    margin-top: 24px;
+    margin-bottom: 18px;
   }
   h5 {
-    font-weight: bold;
     margin-top: 48px;
     margin-bottom: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #text-content {
+    padding: 36px 72px;
+    padding-bottom: 56px;
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 16px;
+    }
+    h2 {
+      margin-top: 48px;
+      margin-bottom: 36px;
+    }
+    h5 {
+      margin-top: 48px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+#text-content {
+  background-color: #ffffff;
+  h5 {
+    font-weight: bold;
   }
 }
 
@@ -94,3 +125,32 @@ the heading of each section is hidden above the fold when you click on the link.
   margin-top: -75px;
   visibility: hidden;
 }
+
+
+.dark-scrollbar {
+  overflow-y: scroll !important;
+  scrollbar-color: #2D3748 #171923 !important;
+}
+
+.dark-scrollbar::-webkit-scrollbar-track  {
+  background-color: #171923 !important;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #2D3748 !important;
+  border-radius: 0.5rem !important;
+  background-clip: content-box !important;
+  border: 3px solid transparent !important;
+}
+
+.dark-scrollbar::-webkit-scrollbar {
+  background: #171923 !important;
+  overflow-y: scroll !important;
+}
+
+.dark-scrollbar::-webkit-scrollbar-corner {
+  background: transparent !important;
+  color: transparent !important;
+  display: none !important;
+}
+

@@ -18,7 +18,12 @@
   {{ partial "about.md" | markdownify }}
   <div id="play-button-wrapper">
     <a href="https://play.elaragame.com">
-      <button type="button" class="btn btn-primary btn-lg">Play Now</button>
+      <button type="button" class="btn btn-primary btn-lg d-none d-lg-block">
+        Play Now
+      </button>
+      <button type="button" class="btn btn-primary btn d-lg-none">
+        Play Now
+      </button>
     </a>
   </div>
   <h2 id="faqs">FAQs</h2>
