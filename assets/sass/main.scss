@@ -12,11 +12,13 @@ body {
   background: url("/images/starry_bg.webp") no-repeat center center fixed;
   background-size: cover;
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 @include media-breakpoint-up(lg) {
   body {
     padding-top: 64px;
+    padding-bottom: 48px;
   }
 }
 
@@ -48,6 +50,16 @@ body {
 #badges {
   a {
     text-decoration: none;
+  }
+}
+
+@media (max-width: 460px) {
+  #badges {
+    img {
+      height: 28px;
+      margin: 8px auto;
+      display: block;
+    }
   }
 }
 
