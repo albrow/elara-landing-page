@@ -1,5 +1,29 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-{{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>
+  {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title
+  site.Title }}{{ end }}
+</title>
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/images/apple-touch-icon.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/images/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/images/favicon-16x16.png"
+/>
+<link rel="manifest" href="/site.webmanifest" />
+<meta
+  name="description"
+  content="Elara is a free coding game with a rich story. Learn the basics of programming, and play through 25+ levels and optional bonus challenges. No account creation and no downloads required!"
+/>
+{{ partialCached "head/css.html" . }} {{ partialCached "head/js.html" . }}
