@@ -47,6 +47,14 @@ body {
   padding: 24px 0px;
 }
 
+#play-button {
+  width: fit-content;
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+}
+
 #badges {
   a {
     text-decoration: none;
